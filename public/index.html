@@ -5,19 +5,17 @@
 
 <head>
      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-
      <title>Ameet's Resume</title>
-
      <style type="text/css">
         * { margin: 0; padding: 0; }
         body { font: 16px Helvetica, Sans-Serif; line-height: 24px; background: url(images/noise.jpg); }
         .clear { clear: both; }
-        #page-wrap { width: 800px; margin: 40px auto 60px; }
+        #page-wrap {padding: 0px; width: 800px; margin: 40px auto 60px; clear:none; }
         #pic { float: right; margin: -30px 0 0 0; }
-        h1 { margin: 0 0 16px 0; padding: 0 0 16px 0; font-size: 42px; font-weight: bold; letter-spacing: -2px; border-bottom: 1px solid #999; }
+        h1 { margin: 0 0 16px 0; padding: 0 0 16px 0; font-size: 42px; font-weight: bold; letter-spacing: -2px; border-bottom: 1px solid #999; clear:none; }
         h2 { font-size: 20px; margin: 0 0 6px 0; position: relative; }
         h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 16px; color: #999; font-weight: normal; }
-        p { margin: 0 0 16px 0; }
+        p { padding: 0px; margin: 0 0 0px 0; clear:none;}
         a { color: #999; text-decoration: none; border-bottom: 1px dotted #999; }
         a:hover { border-bottom-style: solid; color: black; }
         ul { margin: 0 0 32px 17px; }
@@ -26,36 +24,32 @@
         dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; float: left; height: 100px; border-right: 1px solid #999;  }
         dd { width: 600px; float: right; }
         dd.clear { float: none; margin: 0; height: 15px; }
+
+        #twitter .twitter:before{content: '@'; padding-left: 24px; background: url(images/twitter.png) no-repeat 0 0px; clear:none;}
+        
      </style>
 </head>
 
 <body>
-
     <div id="page-wrap">
-    
         <img src="images/ameetandfam.png" alt="Me and my crew" id="pic" />
-    
-        <div id="contact-info" class="vcard">
+            <div>
+                <h1>Ameet Wadhwani</h1>
+                    <p>
+                        Cell: <span class="tel">416-877-3721</span><br />
+                        Email: <a class="email" href="mailto:ameet.wadhwani@gmail.com">ameet.wadhwani@gmail.com</a><br />
+                        <div id="twitter"><a href="http://twitter.com/HeyAmeet" title="Visit Ameet on Twitter" class="twitter">HeyAmeet</a></div><br/>
+                    </p>
+            </div>
+            <div id="objective">
+                 <p>
+                    Husband to @HeyClaire, father to @HeyVedyn, gaurdian to @HeyHitchens. Entrepreneur with a passion for digital media, communications and marketing analytics.
+                 </p>
+            </div>
         
-            <!-- Microformats! -->
+             <div class="clear"></div>
         
-            <h1 class="fn">Ameet Wadhwani</h1>
-        
-            <p>
-                Cell: <span class="tel">416-877-3721</span><br />
-                Email: <a class="email" href="mailto:ameet.wadhwani@gmail.com">ameet.wadhwani@gmail.com</a>
-            </p>
-        </div>
-                
-        <div id="objective">
-            <p>
-                Husband to @HeyClaire, father to @HeyVedyn, gaurdian to @HeyHitchens. Entrepreneur with a passion for digital media, communications and marketing analytics.
-            </p>
-        </div>
-        
-        <div class="clear"></div>
-        
-        <dl>
+            <dl>
             <dd class="clear"></dd>
             
             <dt>Education</dt>
@@ -82,7 +76,7 @@
             <dt>Experience</dt>
             <dd>
                 <h2>OptMe.In Communications Inc.<span>Co-Founder and CEO - 2011-Present</span></h2>
-                <p>Launched a multi-channel communications product connecting brands with their fans through email, social media and mobile devices.  Generated over $350K in year 1 revenues form clients such as RBC, CBC, Hill & Knowlton, Lindt, and Rogers Media.</p>
+                <p>Launched a multi-channel communications product connecting brands with their fans through email, social media and mobile devices.  Generated over $350K in year 1 revenues form clients such as RBC, CBC, Hill & Knowlton, Lindt, and Rogers Media.</p><br />
                 
                 <h2>Baseline, big time, HP, etc. <span>Sales, Marketing, Operations - 2005-2011</span></h2>
                 <ul>
@@ -91,14 +85,10 @@
                     <li>Crunched numbers and cashed cheques</li>
                 </ul> 
             </dd>
-            
             <dd class="clear"></dd>
-            
             <dt>Hobbies</dt>
             <dd>developing code!!</dd>
-            
             <dd class="clear"></dd>
-            
             <dt>References</dt>
             <dd>Available on request</dd>
             
@@ -106,9 +96,6 @@
         </dl>
         
         <div class="clear"></div>
-    
     </div>
-
 </body>
-
 </html>
